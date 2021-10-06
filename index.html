@@ -7,6 +7,7 @@
     <title>Rock Paper Scissors</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+    <link rel="icon" href="images/download.ico">
 </head>
 <body>
 
@@ -26,13 +27,13 @@
 
     <div class="btn-container">
         <button type="button" data-value="rock">
-            <i class="far fa-hand-rock fa-4x"></i>
+            <i class="far fa-hand-rock fa-4x" data-value="rock"></i>
         </button>
         <button type="button" data-value="paper">
-            <i class="far fa-hand-paper fa-4x"></i>
+            <i class="far fa-hand-paper fa-4x" data-value="paper"></i>
         </button>
         <button type="button" data-value="scissors">
-            <i class="far fa-hand-scissors fa-4x"></i>
+            <i class="far fa-hand-scissors fa-4x" data-value="scissors"></i>
         </button>
     </div>
 
@@ -40,5 +41,24 @@
 
     </main>
 
+    <div class="modal">
+        <div class="modal-content">
+            <div class="content">
+                <div class="title">
+                    <h1>Game Info</h1>
+                </div>
+                <br>
+                <h2 class="modal-message"></h2>
+                <h2 class="p-score-on-modal">player: 0</h2>
+                <h2 class="c-score-on-modal">computer: 0</h2>
+                <br>
+                <button class="play-again-btn" type="button">
+                    Play Again
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
 </body>
 </html>
