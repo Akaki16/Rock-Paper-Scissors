@@ -154,4 +154,8 @@ header h1 {
     #message {
         transform: translateY(-20px);
     }
+
+    .modal .modal-content {
+        width: 90%;
+    }
 }
