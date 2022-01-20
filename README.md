@@ -11,6 +11,8 @@ Otherwise computer will win the game
 
 In the game there are 15 rounds
 
+[live demo](https://akaki16.github.io/Holy-Grail-Layout/)
+
 ### Running documentation
 
 Open terminal in your operating system
